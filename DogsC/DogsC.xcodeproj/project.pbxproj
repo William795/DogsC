@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9217CAD62295E058008B3235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CAD52295E058008B3235 /* AppDelegate.m */; };
-		9217CAD92295E058008B3235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CAD82295E058008B3235 /* ViewController.m */; };
 		9217CADC2295E058008B3235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217CADA2295E058008B3235 /* Main.storyboard */; };
 		9217CADE2295E05B008B3235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9217CADD2295E05B008B3235 /* Assets.xcassets */; };
 		9217CAE12295E05B008B3235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217CADF2295E05B008B3235 /* LaunchScreen.storyboard */; };
 		9217CAE42295E05B008B3235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CAE32295E05B008B3235 /* main.m */; };
 		9217CAEE2295E05B008B3235 /* DogsCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CAED2295E05B008B3235 /* DogsCTests.m */; };
 		9217CAF92295E05B008B3235 /* DogsCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CAF82295E05B008B3235 /* DogsCUITests.m */; };
+		9217CB092295E7B0008B3235 /* WILDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CB082295E7B0008B3235 /* WILDog.m */; };
+		9217CB0D2295E97B008B3235 /* WILDogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CB0C2295E97B008B3235 /* WILDogController.m */; };
+		9217CB122295FBC8008B3235 /* WILBreedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217CB112295FBC8008B3235 /* WILBreedTableViewController.swift */; };
+		9217CB572296216A008B3235 /* WILImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217CB562296216A008B3235 /* WILImageTableViewController.swift */; };
+		9217CB592296217B008B3235 /* WILImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217CB582296217B008B3235 /* WILImageTableViewCell.swift */; };
+		9217CBA322976A18008B3235 /* WILImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217CBA222976A18008B3235 /* WILImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,6 @@
 		9217CAD12295E058008B3235 /* DogsC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogsC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9217CAD42295E058008B3235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9217CAD52295E058008B3235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9217CAD72295E058008B3235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9217CAD82295E058008B3235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9217CADB2295E058008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9217CADD2295E05B008B3235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9217CAE02295E05B008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 		9217CAF42295E05B008B3235 /* DogsCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9217CAF82295E05B008B3235 /* DogsCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogsCUITests.m; sourceTree = "<group>"; };
 		9217CAFA2295E05B008B3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9217CB072295E7B0008B3235 /* WILDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILDog.h; sourceTree = "<group>"; };
+		9217CB082295E7B0008B3235 /* WILDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILDog.m; sourceTree = "<group>"; };
+		9217CB0B2295E97B008B3235 /* WILDogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILDogController.h; sourceTree = "<group>"; };
+		9217CB0C2295E97B008B3235 /* WILDogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILDogController.m; sourceTree = "<group>"; };
+		9217CB102295FBC7008B3235 /* DogsC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogsC-Bridging-Header.h"; sourceTree = "<group>"; };
+		9217CB112295FBC8008B3235 /* WILBreedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILBreedTableViewController.swift; sourceTree = "<group>"; };
+		9217CB562296216A008B3235 /* WILImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILImageTableViewController.swift; sourceTree = "<group>"; };
+		9217CB582296217B008B3235 /* WILImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILImageTableViewCell.swift; sourceTree = "<group>"; };
+		9217CBA222976A18008B3235 /* WILImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +113,11 @@
 		9217CAD32295E058008B3235 /* DogsC */ = {
 			isa = PBXGroup;
 			children = (
-				9217CAD42295E058008B3235 /* AppDelegate.h */,
-				9217CAD52295E058008B3235 /* AppDelegate.m */,
-				9217CAD72295E058008B3235 /* ViewController.h */,
-				9217CAD82295E058008B3235 /* ViewController.m */,
+				9217CB062295E167008B3235 /* Resources */,
 				9217CADA2295E058008B3235 /* Main.storyboard */,
-				9217CADD2295E05B008B3235 /* Assets.xcassets */,
-				9217CADF2295E05B008B3235 /* LaunchScreen.storyboard */,
-				9217CAE22295E05B008B3235 /* Info.plist */,
-				9217CAE32295E05B008B3235 /* main.m */,
+				9217CB0A2295E96A008B3235 /* Models */,
+				9217CB0E2295E97F008B3235 /* Controllers */,
+				9217CB582296217B008B3235 /* WILImageTableViewCell.swift */,
 			);
 			path = DogsC;
 			sourceTree = "<group>";
@@ -130,6 +138,49 @@
 				9217CAFA2295E05B008B3235 /* Info.plist */,
 			);
 			path = DogsCUITests;
+			sourceTree = "<group>";
+		};
+		9217CB062295E167008B3235 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9217CAD42295E058008B3235 /* AppDelegate.h */,
+				9217CAD52295E058008B3235 /* AppDelegate.m */,
+				9217CADD2295E05B008B3235 /* Assets.xcassets */,
+				9217CADF2295E05B008B3235 /* LaunchScreen.storyboard */,
+				9217CAE22295E05B008B3235 /* Info.plist */,
+				9217CAE32295E05B008B3235 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9217CB0A2295E96A008B3235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9217CB072295E7B0008B3235 /* WILDog.h */,
+				9217CB082295E7B0008B3235 /* WILDog.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9217CB0E2295E97F008B3235 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9217CB0F2295E98A008B3235 /* ModelControllers */,
+				9217CB562296216A008B3235 /* WILImageTableViewController.swift */,
+				9217CB112295FBC8008B3235 /* WILBreedTableViewController.swift */,
+				9217CB102295FBC7008B3235 /* DogsC-Bridging-Header.h */,
+				9217CBA222976A18008B3235 /* WILImageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9217CB0F2295E98A008B3235 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9217CB0B2295E97B008B3235 /* WILDogController.h */,
+				9217CB0C2295E97B008B3235 /* WILDogController.m */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,11 +245,13 @@
 		9217CAC92295E058008B3235 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WIL;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "William Moody";
 				TargetAttributes = {
 					9217CAD02295E058008B3235 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					9217CAE82295E05B008B3235 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -262,9 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9217CAD92295E058008B3235 /* ViewController.m in Sources */,
 				9217CAE42295E05B008B3235 /* main.m in Sources */,
+				9217CB092295E7B0008B3235 /* WILDog.m in Sources */,
 				9217CAD62295E058008B3235 /* AppDelegate.m in Sources */,
+				9217CB122295FBC8008B3235 /* WILBreedTableViewController.swift in Sources */,
+				9217CB572296216A008B3235 /* WILImageTableViewController.swift in Sources */,
+				9217CBA322976A18008B3235 /* WILImageViewController.swift in Sources */,
+				9217CB0D2295E97B008B3235 /* WILDogController.m in Sources */,
+				9217CB592296217B008B3235 /* WILImageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,14 +493,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DogsC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DogsC/Controllers/DogsC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,14 +513,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DogsC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DogsC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DogsC/Controllers/DogsC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,6 +531,7 @@
 		9217CB012295E05B008B3235 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DogsCTests/Info.plist;
@@ -484,6 +550,7 @@
 		9217CB022295E05B008B3235 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DogsCTests/Info.plist;
@@ -502,6 +569,7 @@
 		9217CB042295E05B008B3235 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DogsCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -519,6 +587,7 @@
 		9217CB052295E05B008B3235 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DogsCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
